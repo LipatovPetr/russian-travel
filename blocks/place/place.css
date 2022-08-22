@@ -1,0 +1,11 @@
+.place {
+    width: 984px;
+    padding: 92px 148px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: fit-content() fit-content(); 
+    column-gap: 40px;
+    row-gap: 48px;
+    background-color: #2A2C2F;
+
+}
