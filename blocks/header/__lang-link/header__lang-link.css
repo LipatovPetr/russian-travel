@@ -11,3 +11,8 @@
 .header__lang-link + .header__lang-link {
     margin-left: 18px;
 }
+
+.header__lang-link:hover {
+    opacity: .8;
+    transition: .5ms;
+}
