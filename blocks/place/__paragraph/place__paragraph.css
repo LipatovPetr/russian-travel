@@ -7,5 +7,43 @@
 }
 
 .place__paragraph ~ .place__paragraph {
-    margin-top: 26px;
+    margin-top: 26px;    
+}
+
+
+@media screen and (max-width: 680px) {
+    .place__paragraph {
+        padding: 0 16px 0;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .place__paragraph ~ .place__paragraph {
+        margin-top: 25px;    
+    }
+}
+
+@media screen and (max-width: 512px) {
+    .place__paragraph {
+        padding: 0 16px 0;
+    }
+}
+
+@media screen and (max-width: 512px) {
+    .place__paragraph ~ .place__paragraph {
+        margin-top: 25px;    
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .place__paragraph {
+        padding: 0 16px 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__paragraph ~ .place__paragraph {
+        margin-top: 25px;    
+    }
 }

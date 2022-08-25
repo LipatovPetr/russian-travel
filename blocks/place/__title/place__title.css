@@ -6,3 +6,28 @@
     color: #FFFFFF;
 
 }
+
+
+@media screen and (max-width: 680px) {
+    .place__title {
+        min-width: 90%;
+        margin: auto;
+    }
+}
+
+
+@media screen and (max-width: 512px) {
+    .place__title {
+        min-width: 90%;
+        margin: auto;
+        font-size: 52px;
+        line-height: 55px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .place__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

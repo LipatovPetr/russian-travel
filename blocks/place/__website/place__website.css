@@ -2,3 +2,21 @@
     align-self: end;
     
 }
+
+@media screen and (max-width: 680px) {
+    .place__website {
+        min-width: 90%;
+        margin: auto;
+    }
+
+@media screen and (max-width: 512px) {
+    .place__website {
+        min-width: 90%;
+        margin: auto;
+    }
+
+    @media screen and (max-width: 320px) {
+        .place__website {
+            min-width: 90%;
+            margin: auto;
+        }
