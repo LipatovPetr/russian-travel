@@ -1,6 +1,12 @@
 .cover {
     background-color: #2A2C2F;
     max-width: 1280px;
-    max-height: 740px;
+    min-height: 200px;
     padding-top: 92px;
+}
+
+@media screen and (max-width: 320px) {
+    .cover  {
+        padding-top: 66px;
+    }
 }
